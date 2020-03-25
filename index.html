@@ -11,65 +11,83 @@
   <div class="wrapper">
     <header class="header">
       <h1 class="header__heading">The Newspaper</h1>
-      <p class="header__heading__text">Lorem &bull; ipsum &bull; dolor &bull; sit &bull; amet &bull; consectetur &bull; adipiscing</p>
+      <ul class="header__ul">
+        <li class="header__ul__li">Lorem</li>
+        <li class="header__ul__li__bullet">&bullet;</li>
+        <li class="header__ul__li">ipsum</li>
+        <li class="header__ul__li__bullet">&bullet;</li>
+        <li class="header__ul__li">dolor</li>
+        <li class="header__ul__li__bullet">&bullet;</li>
+        <li class="header__ul__li">sit</li>
+        <li class="header__ul__li__bullet">&bullet;</li>
+        <li class="header__ul__li">amet</li>
+        <li class="header__ul__li__bullet">&bullet;</li>
+        <li class="header__ul__li">consectetur</li>
+        <li class="header__ul__li__bullet">&bullet;</li>
+        <li class="header__ul__li">adipiscing</li>
+      </ul>
       <div class="header__wrapper">
         <time class="header__time" datetime="2020-08-08 20:00">08-AUG-2020</time>
         <span class="header__span">Edition #323</span>
       </div>
     </header>
     <main class="main">
-        <h2 class="heading main__heading">Facilisi cras fermentum odio eu feugiat.</h2>
+        <h2 class="heading main__heading">Facilisi cras fermentum odio eu feugiat</h2>
         <div class="all-content">
           <div class="main-content">
             <section>
               <div>
+                <img class="img__first" src="https://www.placecage.com/640/360" alt="Nicolas Cage">
                 <article>
-                  <img class="img__first" src="https://www.placecage.com/640/360" alt="Nicolas Cage">
-                    <blockquote class="blockquote">
-                      <q class="blockquote__quote">For me, acting was a way of taking destructive energy and doing something productive with it, 
-                        <mark class="mark">and in that way it was quite a life saver.</mark></q>
-                  <cite class="blockquote__cite"> &mdash; Nicolas Cage</cite>
+                  <blockquote class="blockquote">
+                    <q class="blockquote__quote">For me, acting was a way of taking destructive energy and doing something productive with it, 
+                      <mark class="mark">and in that way it was quite a life saver.</mark></q>
+                    <cite class="blockquote__cite"> &mdash; Nicolas Cage</cite>
                   </blockquote>
-                  <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing 
-                    <br>elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="paragraph section-first__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    <br>elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Eu nisl nunc mi ipsum faucibus vitae aliquet. At augue eget arcu dictum varius. 
+                    Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. 
+                    Quis enim lobortis scelerisque fermentum dui faucibus.</p>
                 </article>
               </div>
             </section>
-            <section>
-              <h2 class="heading heading_main">Lorem ipsum dolor sit amet</h2>
-              <div class="second-section__wrapper">
-                <img class="img__second" src="http://placeimg.com/640/360/any" alt="Article image">
-                <div class="second-article__wrapper">
-                  <p class="paragraph paragraph__upper">Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <article class="second-article">
+            <section class="section-second">
+              <h2 class="heading section-second__heading">Lorem ipsum dolor sit amet</h2>
+              <div class="section-second__wrapper">
+                <p class="paragraph paragraph__upper">Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Elementum sagittis vitae et leo duis ut diam quam. In hendrerit gravida rutrum quisque non. 
+                    Mi eget mauris pharetra et ultrices neque ornare aenean euismod. 
+                    Nunc vel risus commodo viverra maecenas accumsan lacus. Leo vel fringilla est ullamcorper eget nulla.</p>
+                <img class="img__second" src="http://placeimg.com/640/200/tech?t=1585131023527" alt="Article image">
+                  <article class="article-second">
                     <p class="paragraph paragraph__lower">Duis aute irure dolor in reprehenderit in voluptate
                       velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     <p class="paragraph paragraph__lower">Facilisis volutpat est velit egestas dui. 
                       Sit amet purus gravida quis blandit turpis cursus. 
                       Risus nec feugiat in fermentum posuere urna nec tincidunt praesent.</p>
-                    <p class="paragraph">Excepteur sint occaecat cupidatat non proident,
+                    <p class="paragraph paragraph__lower">Excepteur sint occaecat cupidatat non proident,
                       sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </article>
-                </div>
               </div>
             </section>
           </div>
           <aside class="aside-content">
             <dl>
-            <dt class="heading">Lorem ipsum</dt>
-            <dd class="dd paragraph">Non sodales neque sodales ut. Quisque sagittis purus sit amet volutpat consequat. </dd>
-            <dt class="heading">Dolor sit</dt>
-            <dd class="dd paragraph">Condimentum vitae sapien pellentesque habitant morbi tristique senectus et.</dd>
-            <dt class="heading">Consetcur</dt>
-            <dd class="dd paragraph">Vitae suscipit tellus mauris a diam maecenas.</dd>
-            <dt class="heading">Adipiscing</dt>
-            <dd class="dd paragraph">Nunc scelerisque viverra mauris in aliquam sem fringilla ut.</dd>
-            <dt class="heading">Eiusmod tempur</dt>
-            <dd class="dd paragraph">Euismod quis viverra nibh cras pulvinar.
-              Posuere morbi leo urna molestie at elementum eu.</dd>
-            <dt class="heading">Incididunt</dt>
-            <dd class="dd paragraph">Quam vulputate dignissim suspendisse in est ante in nibh mauris.</dd>
+              <dt class="heading dt">Lorem ipsum</dt>
+                <dd class="paragraph dd">Non sodales neque sodales ut. Quisque sagittis purus sit amet volutpat consequat. </dd>
+              <dt class="heading dt">Dolor sit</dt>
+                <dd class="paragraph dd">Condimentum vitae sapien pellentesque habitant morbi tristique senectus et.</dd>
+              <dt class="heading dt">Consetcur</dt>
+                <dd class="paragraph dd">Vitae suscipit tellus mauris a diam maecenas.</dd>
+              <dt class="heading dt">Adipiscing</dt>
+                <dd class="paragraph dd">Nunc scelerisque viverra mauris in aliquam sem fringilla ut.</dd>
+              <dt class="heading dt">Eiusmod tempur</dt>
+                <dd class="paragraph dd">Euismod quis viverra nibh cras pulvinar.
+                Posuere morbi leo urna molestie at elementum eu.</dd>
+              <dt class="heading dt">Incididunt</dt>
+                <dd class="paragraph dd">Quam vulputate dignissim suspendisse in est ante in nibh mauris.</dd>
             </dl>
           </aside>
         </div>
